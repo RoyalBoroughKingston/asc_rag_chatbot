@@ -2,7 +2,6 @@
 pages
 .streamlit
 .env
-embeddings.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
