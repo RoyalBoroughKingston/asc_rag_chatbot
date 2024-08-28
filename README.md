@@ -28,6 +28,12 @@ The file 'asc_website.csv' provides a full list of the pages that have been used
 
 In addition to the two .py files, there is also a file called extract.ipynb, which can be used to extract the webpages as html documents. To add more webpages, simply add the title and urls to the 'asc_website.csv' file and re-run extract.ipynb and they will be downloaded to downloaded_pdfs.
 
+## Evaluation
+
+Some automated evaluation of the model's responses has been carried out in the file 'evaluate.ipynb'.
+
+This file uses the model and actual answers in the spreadsheet 'AI assistant -  questions and answers'. It creates vector embeddings of these answers and then compares them using cosine similarity. Nearly all of the answers have a similarity of over 0.9, which shows a strong match between the model answer and the answer provided by the chatbot.
+
 ## Running the app locally
 
 First clone this repository on to your local machine.
